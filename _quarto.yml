@@ -1,5 +1,8 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!README.qmd"
 
 website:
   title: "Quarto - A quick guide"
