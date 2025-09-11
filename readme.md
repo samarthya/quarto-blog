@@ -13,9 +13,11 @@ The name "Quarto" itself is meaningful – it refers to a book format created by
 ## The Power and Utility of Quarto
 
 ### Multi-Language Support
+
 Unlike its predecessors, Quarto isn't tied to a single programming language. You can seamlessly integrate code chunks from Python, R, Julia, and Observable JavaScript within the same document. This makes it ideal for teams working with diverse technical stacks or researchers who use different tools for different aspects of their work.
 
 ### Unified Publishing System
+
 Quarto serves as a comprehensive publishing platform that can generate:
 - **Static websites** and blogs
 - **Interactive dashboards** and applications
@@ -49,6 +51,14 @@ While Quarto works with any text editor, certain editors provide enhanced experi
 - **VS Code**: Install the Quarto extension for syntax highlighting, preview, and rendering
 - **RStudio**: Built-in support comes with RStudio 2022.07.1+
 - **Jupyter Lab**: Install the Quarto extension for Jupyter notebooks
+
+### Use `quarto create`
+
+```bash
+quarto create project website .
+```
+
+It will generate few pages within the current directory that you can use as the starting point.
 
 ### Your First Quarto Document
 

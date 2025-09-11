@@ -4,10 +4,13 @@ project:
 website:
   title: "Quarto - A quick guide"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
@@ -16,6 +19,4 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
+    code-fold: true
