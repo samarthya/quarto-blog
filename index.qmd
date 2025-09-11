@@ -1,0 +1,29 @@
+---
+title: "My First Quarto Document"
+author: "Samarthya"
+format: html
+execute:
+    echo: true
+    eval: true
+    output: true
+---
+
+# Introduction
+
+This is my first Quarto document. Let me show you some Python code:
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Create some sample data
+data = {'x': [1, 2, 3, 4, 5], 'y': [2, 4, 6, 8, 10]}
+df = pd.DataFrame(data)
+
+# Create a plot
+plt.figure(figsize=(8, 6))
+plt.plot(df['x'], df['y'], marker='o')
+plt.title('My First Plot')
+plt.xlabel('X values')
+plt.ylabel('Y values')
+plt.show()
+```
